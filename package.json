@@ -1,0 +1,18 @@
+{
+  "name": "spark-sidecar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "hellovigoss@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "connect-sse": "^1.2.0",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "websocket": "^1.0.34"
+  }
+}
